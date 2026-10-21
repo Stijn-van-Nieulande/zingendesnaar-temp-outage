@@ -1,1 +1,0 @@
-# zingendesnaar-temp-outage

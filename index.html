@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Zingende Snaar – Tijdelijk offline</title>
+    <style>
+      :root {
+        --bg: #f6f3ee;
+        --card: #ffffff;
+        --text: #2b2622;
+        --muted: #6b625a;
+        --accent: #8a4b2a;
+        --accent-soft: #efe4dc;
+        --line: #e4ddd4;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1b1816;
+          --card: #24201d;
+          --text: #f1ebe4;
+          --muted: #b3a89d;
+          --accent: #d89466;
+          --accent-soft: #3a2c23;
+          --line: #3a342f;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 16px;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.65;
+      }
+      main {
+        width: 100%;
+        max-width: 620px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 44px 40px 36px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      }
+      .strings {
+        display: block;
+        width: 100%;
+        height: 34px;
+        margin-bottom: 28px;
+      }
+      .strings line {
+        stroke: var(--accent);
+        stroke-linecap: round;
+      }
+      .label {
+        display: inline-block;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: var(--accent-soft);
+        padding: 4px 10px;
+        border-radius: 999px;
+        margin-bottom: 14px;
+      }
+      h1 {
+        font-size: clamp(1.7rem, 5vw, 2.2rem);
+        line-height: 1.2;
+        margin: 0 0 24px;
+        font-weight: normal;
+      }
+      p {
+        margin: 0 0 16px;
+      }
+      .contact {
+        margin: 28px 0;
+        padding: 20px 22px;
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        font-size: 0.98rem;
+      }
+      .contact p {
+        margin: 0 0 10px;
+      }
+      .contact p:last-child {
+        margin: 0;
+      }
+      .contact a {
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+      }
+      .contact a:hover,
+      .contact a:focus {
+        border-bottom-color: var(--accent);
+      }
+      .sign {
+        margin-top: 28px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-style: italic;
+      }
+      @media (max-width: 520px) {
+        main {
+          padding: 32px 22px 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <svg
+        class="strings"
+        viewBox="0 0 600 34"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <line x1="0" y1="4" x2="600" y2="4" stroke-width="1" opacity="0.35" />
+        <line
+          x1="0"
+          y1="11"
+          x2="600"
+          y2="11"
+          stroke-width="1.2"
+          opacity="0.45"
+        />
+        <line
+          x1="0"
+          y1="18"
+          x2="600"
+          y2="18"
+          stroke-width="1.5"
+          opacity="0.6"
+        />
+        <line
+          x1="0"
+          y1="25"
+          x2="600"
+          y2="25"
+          stroke-width="1.8"
+          opacity="0.75"
+        />
+        <line
+          x1="0"
+          y1="32"
+          x2="600"
+          y2="32"
+          stroke-width="2.2"
+          opacity="0.9"
+        />
+      </svg>
+
+      <span class="label">Tijdelijk offline</span>
+      <h1>Zingende Snaar is tijdelijk offline</h1>
+
+      <p>Beste klant,</p>
+      <p>
+        Er is een ernstige kwetsbaarheid bekendgemaakt in veelgebruikte software
+        waarop ook onze website draait. Deze kwetsbaarheid raakt bedrijven
+        wereldwijd. Uit voorzorg hebben wij besloten onze website tijdelijk
+        offline te halen, in lijn met het advies van het Europese
+        cybersecuritycentrum.
+      </p>
+      <p>
+        Dit is een preventieve maatregel. De veiligheid van uw gegevens staat
+        bij ons voorop. Daarom nemen wij geen onnodige risico's, ook als dit
+        tijdelijk ongemak met zich meebrengt.
+      </p>
+
+      <div class="contact">
+        <p>
+          Voor bestellingen en vragen kunt u ons telefonisch bereiken via
+          <a href="tel:+31317769134">0317-769134</a>.
+        </p>
+        <p>
+          U kunt ook een e-mail sturen naar
+          <a href="mailto:info@zingendesnaar.nl">info@zingendesnaar.nl</a>.
+        </p>
+      </div>
+
+      <p>Onze excuses voor het ongemak. Bedankt voor uw begrip.</p>
+
+      <p class="sign">Het Zingende Snaar team</p>
+    </main>
+  </body>
+</html>
